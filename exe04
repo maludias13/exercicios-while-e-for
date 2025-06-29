@@ -1,1 +1,19 @@
-
+#include <iostream>
+using namespace std;
+int imp (int n1, int n2){
+    int i=n2;
+   for(i= n1; i<=n2; i++){
+       if(i % 2!=0){
+            cout<<i<<" ";
+       }
+   }
+   return i;
+}
+ 
+    
+int main(){
+    int n1, n2;
+    cin>>n1>>n2;
+    imp (n1, n2);
+    return 0;
+}
