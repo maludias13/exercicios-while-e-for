@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+void cs(int sb, int vhe){
+    int horas, i=0;
+     cin>>horas;
+    while (horas>=0)
+    {
+    cout<<"Salário: R$"<<(sb+vhe*horas)<<endl;
+     cin>>horas;
+    i++;
+    }
+}
+
+
+int main(){
+    int sb, vhe;
+    cin>>sb>>vhe;
+    cs(sb,vhe);
+    
+    return 0;
+}
