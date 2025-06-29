@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void valor(int n1, int n2){
+    
+   if(n1>=n2){
+      for(int i=n1 ; i>= n2; i--){
+          cout<<i<< " ";
+      }
+   }
+   cout<< endl;
+}
+
+int main(){
+  int n1, n2;
+  cin>>n1>>n2;
+  valor(n1,n2);
+    return 0;
+}
